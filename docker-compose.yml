@@ -6,5 +6,4 @@ services:
       - '${MODULE_CODE}:8888'
     volumes:
       - ./CIS${MODULE_CODE}:/home/ehu/CIS${MODULE_CODE}-${YEAR}
-    image: walshd/ehu${MODULE_CODE}
- 
+    image: walshd/ehucis${MODULE_CODE}
